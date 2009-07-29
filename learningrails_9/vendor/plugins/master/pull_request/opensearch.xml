@@ -1,0 +1,736 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <title>defunkt's acts_as_textiled at master - GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="http://github.com/fluidicon.png" title="GitHub" />
+
+    
+      <link href="http://assets0.github.com/stylesheets/bundle.css?4e4549ef242cc20be2f40fdf0f47baaa74c05405" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    
+      
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="http://assets3.github.com/javascripts/bundle.js?4e4549ef242cc20be2f40fdf0f47baaa74c05405" type="text/javascript"></script>
+      
+    
+    
+  
+    
+  
+
+  <link href="http://github.com/feeds/defunkt/commits/acts_as_textiled/master" rel="alternate" title="Recent Commits to acts_as_textiled:master" type="application/atom+xml" />
+
+    <meta name="description" content="Makes your models act as textiled." />
+
+
+    
+
+    <script type="text/javascript">
+      github_user = null
+    </script>
+  </head>
+
+  
+
+  <body>
+    
+
+    <div id="main">
+      <div id="header" class="">
+        <div class="site">
+          <div class="logo">
+            <a href="http://github.com"><img src="/images/modules/header/logov3.png" alt="github" /></a>
+          </div>
+          
+            <div class="topsearch">
+  <form action="/search" id="top_search_form" method="get">
+    <input type="search" class="search" name="q" /> <input type="submit" value="Search" />
+    <input type="hidden" name="type" value="Everything" />
+    <input type="hidden" name="repo" value="" />
+    <input type="hidden" name="langOverride" value="" />
+    <input type="hidden" name="start_value" value="1" />
+  </form>
+  <div class="links">
+    <a href="/repositories">Browse</a> | <a href="/guides">Guides</a> | <a href="/search">Advanced</a>
+  </div>
+</div>
+          
+          
+            <div class="actions">
+              <a href="http://github.com">Home</a>
+              <a href="/plans"><b><u>Pricing and Signup</u></b></a>
+              <a href="http://github.com/popular/forked">Repositories</a>
+              
+              <a href="/blog">Blog</a>
+              <a href="https://github.com/login">Login</a>
+            </div>
+          
+        </div>
+      </div>
+
+      
+        
+    <div id="repo_menu">
+      <div class="site">
+        <ul>
+          
+            <li class="active"><a href="http://github.com/defunkt/acts_as_textiled/tree/master">Source</a></li>
+
+            <li class=""><a href="http://github.com/defunkt/acts_as_textiled/commits/master">Commits</a></li>
+
+            
+            <li class=""><a href="/defunkt/acts_as_textiled/network">Network (16)</a></li>
+
+            
+
+            
+
+            
+
+            
+
+            <li class=""><a href="/defunkt/acts_as_textiled/graphs">Graphs</a></li>
+
+            
+
+          
+        </ul>
+      </div>
+    </div>
+
+  <div id="repo_sub_menu">
+    <div class="site">
+      <div class="joiner"></div>
+      
+
+      
+
+      
+
+      
+        <ul>
+          <li>
+            <a class="active" href="/defunkt/acts_as_textiled/tree/master">master</a>
+          </li>
+          <li>
+            <a href="#">all branches</a>
+            <ul>
+              
+                
+                  <li><a href="/defunkt/acts_as_textiled/tree/master">master</a></li>
+                
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">all tags</a>
+            
+          </li>
+        </ul>
+
+      
+    </div>
+  </div>
+
+  <div class="site">
+    
+
+
+
+
+
+
+
+<div id="repos">
+  
+
+
+<script type="text/javascript">
+  GitHub.currentCommitRef = "master"
+  GitHub.currentRepoOwner = "defunkt"
+  GitHub.currentRepo = "acts_as_textiled"
+  
+</script>
+
+
+
+  <div class="repo public" id="repo_details">
+    <div class="title">
+      <div class="path">
+        <a href="/defunkt">defunkt</a> / <b><a href="http://github.com/defunkt/acts_as_textiled/tree">acts_as_textiled</a></b>
+
+        
+
+          <span id="edit_button" style="display:none;">
+            <a href="/defunkt/acts_as_textiled/edit"><img alt="edit" class="button" src="http://assets3.github.com/images/modules/repos/edit_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+          </span>
+
+          
+            <span id="pull_request_button" style="display:none;">
+              <a href="/defunkt/acts_as_textiled/pull_request/" class="pull_request_button"><img alt="pull request" class="button" src="http://assets2.github.com/images/modules/repos/pull_request_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+            </span>
+            
+            <span id="fast_forward_button" style="display:none;">
+              <a href="/defunkt/acts_as_textiled/fast_forward" id="ff_button"><img alt="fast forward" class="button" src="http://assets2.github.com/images/modules/repos/fast_forward_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+            </span>
+
+            <span id="fork_button">
+              <a href="/defunkt/acts_as_textiled/fork"><img alt="fork" class="button" src="http://assets3.github.com/images/modules/repos/fork_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+            </span>
+          
+
+          <span id="watch_button">
+            <a href="/defunkt/acts_as_textiled/toggle_watch" class="toggle_watch"><img alt="watch" class="button" src="http://assets2.github.com/images/modules/repos/watch_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+          </span>
+          
+          <span id="unwatch_button" style="display:none;">
+            <a href="/defunkt/acts_as_textiled/toggle_watch" class="toggle_watch"><img alt="watch" class="button" src="http://assets2.github.com/images/modules/repos/unwatch_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+          </span>
+
+          
+            <a href="#" id="download_button" rel="defunkt/acts_as_textiled"><img alt="download tarball" class="button" src="http://assets1.github.com/images/modules/repos/download_button.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></a>
+          
+        
+      </div>
+
+      <div class="security private_security" style="display:none">
+        <a href="#private_repo" rel="facebox"><img src="/images/icons/private.png" alt="private" /></a>
+      </div>
+
+      <div id="private_repo" class="hidden">
+        This repository is private.
+        All pages are served over SSL and all pushing and pulling is done over SSH.
+        No one may fork, clone, or view it unless they are added as a <a href="/defunkt/acts_as_textiled/edit">member</a>.
+
+        <br/>
+        <br/>
+        Every repository with this icon (<img src="/images/icons/private.png" alt="private" />) is private.
+      </div>
+
+      <div class="security public_security" style="">
+        <a href="#public_repo" rel="facebox"><img src="/images/icons/public.png" alt="public" /></a>
+      </div>
+
+      <div id="public_repo" class="hidden">
+        This repository is public.
+        Anyone may fork, clone, or view it.
+
+        <br/>
+        <br/>
+        Every repository with this icon (<img src="/images/icons/public.png" alt="public" />) is public.
+      </div>
+
+      
+
+        <div class="flexipill">
+          <a href="/defunkt/acts_as_textiled/network">
+          <table cellpadding="0" cellspacing="0">
+            <tr><td><img alt="Forks" src="http://assets3.github.com/images/modules/repos/pills/forks.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></td><td class="middle"><span>16</span></td><td><img alt="Right" src="http://assets0.github.com/images/modules/repos/pills/right.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></td></tr>
+          </table>
+          </a>
+        </div>
+
+        <div class="flexipill">
+          <a href="/defunkt/acts_as_textiled/watchers">
+          <table cellpadding="0" cellspacing="0">
+            <tr><td><img alt="Watchers" src="http://assets3.github.com/images/modules/repos/pills/watchers.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></td><td class="middle"><span>98</span></td><td><img alt="Right" src="http://assets0.github.com/images/modules/repos/pills/right.png?e06bdeb610e33dc41002eaa80ce09d26ae153090" /></td></tr>
+          </table>
+          </a>
+        </div>
+      </div>
+
+    <div class="meta">
+      <table>
+        
+        <tr>
+          <td class="label">Description:</td>
+          <td>
+            <span id="repository_description" rel="/defunkt/acts_as_textiled/edit/update">Makes your models act as textiled.</span>
+            <a href="#description" class="edit_link action" style="display:none;">edit</a>
+          </td>
+        </tr>
+
+        
+            <tr>
+              <td class="label">Homepage:</td>
+              <td>
+                                
+                <span id="repository_homepage" rel="/defunkt/acts_as_textiled/edit/update">
+                  <a href="http://errtheblog.com/posts/12-actsastextiled">http://errtheblog.com/posts/12-actsastextiled</a>
+                </span>
+                <a href="#homepage" class="edit_link action" style="display:none;">edit</a>
+              </td>
+            </tr>
+
+          
+            <tr>
+              <td class="label"><span id="public_clone_text" style="display:none;">Public&nbsp;</span>Clone&nbsp;URL:</td>
+              
+              <td>
+                <a href="git://github.com/defunkt/acts_as_textiled.git" class="git_url_facebox" rel="#git-clone">git://github.com/defunkt/acts_as_textiled.git</a>
+                      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="110"
+              height="14"
+              class="clippy"
+              id="clippy" >
+      <param name="movie" value="/flash/clippy.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="text=git://github.com/defunkt/acts_as_textiled.git">
+      <param name="bgcolor" value="#F0F0F0">
+      <param name="wmode" value="opaque">
+      <embed src="/flash/clippy.swf"
+             width="110"
+             height="14"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="text=git://github.com/defunkt/acts_as_textiled.git"
+             bgcolor="#F0F0F0"
+             wmode="opaque"
+      />
+      </object>
+
+                <div id="git-clone" style="display:none;">
+                  Give this clone URL to anyone.
+                  <br/>
+                  <code>git clone git://github.com/defunkt/acts_as_textiled.git </code>
+                </div>
+              </td>
+            </tr>
+          
+          
+          <tr id="private_clone_url" style="display:none;">
+            <td class="label">Your Clone URL:</td>
+            
+            <td>
+
+              <div id="private-clone-url">
+                <a href="git@github.com:defunkt/acts_as_textiled.git" class="git_url_facebox" rel="#your-git-clone">git@github.com:defunkt/acts_as_textiled.git</a>
+                <input type="text" value="git@github.com:defunkt/acts_as_textiled.git" style="display: none;" />
+                      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="110"
+              height="14"
+              class="clippy"
+              id="clippy" >
+      <param name="movie" value="/flash/clippy.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="text=git@github.com:defunkt/acts_as_textiled.git">
+      <param name="bgcolor" value="#F0F0F0">
+      <param name="wmode" value="opaque">
+      <embed src="/flash/clippy.swf"
+             width="110"
+             height="14"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="text=git@github.com:defunkt/acts_as_textiled.git"
+             bgcolor="#F0F0F0"
+             wmode="opaque"
+      />
+      </object>
+
+              </div>
+
+              <div id="your-git-clone" style="display:none;">
+                Use this clone URL yourself.
+                <br/>
+                <code>git clone git@github.com:defunkt/acts_as_textiled.git </code>
+              </div>
+            </td>
+          </tr>
+          
+          
+
+          
+
+          
+      </table>
+
+      
+        <div class="pledgie">
+          <a href='http://pledgie.com/campaigns/2052'><img alt='Click here to lend your support to: acts_as_textiled and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/2052.png?skin_name=chrome' border='0' /></a>
+        </div>
+          </div>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+  <div id="commit">
+    <div class="group">
+        
+  <div class="envelope commit">
+    <div class="human">
+      
+        <div class="message"><pre><a href="/defunkt/acts_as_textiled/commit/385f919f170ad774c9329bd81973ae074da46975">fixed deprecation warning on rails truncate method</a> </pre></div>
+      
+
+      <div class="actor">
+        <div class="gravatar">
+          
+          <img alt="" height="30" src="http://www.gravatar.com/avatar/2bf0135b253823e78f8719d27189048b?s=30&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-30.png" width="30" />
+        </div>
+        <div class="name"><a href="/basiszwo">basiszwo</a> <span>(author)</span></div>
+          <div class="date">
+            <abbr class="relatize" title="2009-05-15 03:05:11">Fri May 15 03:05:11 -0700 2009</abbr> 
+          </div>
+      </div>
+  
+      
+        <div class="actor">
+          <div class="gravatar">
+            <img alt="" height="30" src="http://www.gravatar.com/avatar/b8dbb1987e8e5318584865f880036796?s=30&amp;d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-30.png" width="30" />
+          </div>
+          <div class="name"><a href="/defunkt">defunkt</a> <span>(committer)</span></div>
+          <div class="date"><abbr class="relatize" title="2009-05-18 10:41:58">Mon May 18 10:41:58 -0700 2009</abbr></div>
+        </div>
+      
+  
+    </div>
+    <div class="machine">
+      <span>c</span>ommit&nbsp;&nbsp;<a href="/defunkt/acts_as_textiled/commit/385f919f170ad774c9329bd81973ae074da46975" hotkey="c">385f919f170ad774c9329bd81973ae074da46975</a><br />
+      <span>t</span>ree&nbsp;&nbsp;&nbsp;&nbsp;<a href="/defunkt/acts_as_textiled/tree/385f919f170ad774c9329bd81973ae074da46975/lib/acts_as_textiled.rb" hotkey="t">88dd05858919f81103ca70cd56e4fb73e339f602</a><br />
+  
+      
+        <span>p</span>arent&nbsp;
+        
+        <a href="/defunkt/acts_as_textiled/commit/4bb08113fb6363f93535a661208cc299f35f9f0d" hotkey="p">4bb08113fb6363f93535a661208cc299f35f9f0d</a>
+      
+  
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+
+  
+    <div id="path">
+      <b><a href="/defunkt/acts_as_textiled/tree">acts_as_textiled</a></b> / 
+    </div>
+
+    
+      
+
+  <script type="text/javascript">
+    GitHub.currentTreeSHA = "385f919f170ad774c9329bd81973ae074da46975"
+    GitHub.commitSHA = "385f919f170ad774c9329bd81973ae074da46975"
+    GitHub.currentPath = ""
+  </script>
+
+
+<div id="browser">
+  <table cellpadding="0" cellspacing="0">
+    <tr>
+      <th></th>
+      <th>name</th>
+      <th>age</th>
+      <th>
+        <div class="history">
+          <a href="/defunkt/acts_as_textiled/commits/master/">history</a>
+        </div>
+        message
+      </th>
+    </tr>
+
+    
+
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets3.github.com/images/icons/txt.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/blob/385f919f170ad774c9329bd81973ae074da46975/CHANGES" id="40ec9ec94a6c81c3bd778ce4359cdcb6dd2d4948">CHANGES</a></td>
+        
+        <td class="age"> <span class="relatize">Sun Jun 03 04:35:21 -0700 2007</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/eac71a20b391ee28623664658aaf17b26c4ce0cf" class="message">add in acts_as_textiled api changes</a> [<a href="/defunkt">defunkt</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets3.github.com/images/icons/txt.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/blob/385f919f170ad774c9329bd81973ae074da46975/LICENSE" id="844bbe415265272e9ebce92d8465e573ca584718">LICENSE</a></td>
+        
+        <td class="age"> <span class="relatize">Wed Aug 09 22:22:32 -0700 2006</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/cdefbea1dee9c1240e1282b1c2fb6d4b7d20f55c" class="message">initial import</a> [<a href="/defunkt">defunkt</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets3.github.com/images/icons/txt.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/blob/385f919f170ad774c9329bd81973ae074da46975/README.rdoc" id="7900c26343303ed4d4ae46186fe9548350b97d05">README.rdoc</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Mar 11 23:20:48 -0700 2008</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/6a3a952e6c6287fde06b449e8a0257db4f8ef15e" class="message">readme is rdoc format</a> [<a href="/defunkt">defunkt</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets3.github.com/images/icons/txt.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/blob/385f919f170ad774c9329bd81973ae074da46975/Rakefile" id="164760410908b3877e20c77dc4326d3f02642f5c">Rakefile</a></td>
+        
+        <td class="age"> <span class="relatize">Tue Aug 21 15:38:04 -0700 2007</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/3869d8ea49c7edbcc37685f362838d66966727d9" class="message">yet more rdoc changes</a> [<a href="/defunkt">defunkt</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="file" src="http://assets3.github.com/images/icons/txt.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/blob/385f919f170ad774c9329bd81973ae074da46975/about.yml" id="b4fafd78b9e5a21a8af352ae718a258cdfb6f032">about.yml</a></td>
+        
+        <td class="age"> <span class="relatize">Sun Jun 03 04:35:21 -0700 2007</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/eac71a20b391ee28623664658aaf17b26c4ce0cf" class="message">add in acts_as_textiled api changes</a> [<a href="/defunkt">defunkt</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="file" src="http://assets3.github.com/images/icons/txt.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/blob/385f919f170ad774c9329bd81973ae074da46975/init.rb" id="d70cc1eb2696d216648a1bb67411dbb1df323f38">init.rb</a></td>
+        
+        <td class="age"> <span class="relatize">Sat Feb 14 13:51:39 -0800 2009</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/4bb08113fb6363f93535a661208cc299f35f9f0d" class="message">Only require RedCloth if not already loaded
+
+Si...</a> [<a href="/kevinansfield">kevinansfield</a>] </td>
+      </tr>
+    
+      <tr class="alt">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/tree/385f919f170ad774c9329bd81973ae074da46975/lib" id="b6cbee0fc66a58b8537dab2592373d49545a0995">lib/</a></td>
+        
+        <td class="age"> <span class="relatize">Mon May 18 10:41:58 -0700 2009</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/385f919f170ad774c9329bd81973ae074da46975" class="message">fixed deprecation warning on rails truncate met...</a> [<a href="/basiszwo">basiszwo</a>] </td>
+      </tr>
+    
+      <tr class="">
+        <td class="icon"> <img alt="directory" src="http://assets2.github.com/images/icons/dir.png?4f456ffbcd811a65b6ee50b4c696e5ba43ef5d26" /> </td>
+        <td class="content"> <a href="/defunkt/acts_as_textiled/tree/385f919f170ad774c9329bd81973ae074da46975/test" id="e88d2108681203c4f8548b913b40aea42be9d231">test/</a></td>
+        
+        <td class="age"> <span class="relatize">Wed Jun 04 19:05:23 -0700 2008</span> </td>
+        <td class="message"> <a href="/defunkt/acts_as_textiled/commit/f38fb2965f1a537a3e6364cbacb115a7d2d77116" class="message">modified tests</a> [<a href="/lawrencepit">lawrencepit</a>] </td>
+      </tr>
+    
+  </table>
+</div>
+    
+    
+  
+
+
+
+  
+
+
+
+  <div id="readme" class="announce"><span class="name"></span><div class="wikistyle"><h1>Acts as Textiled</h1>
+<p>
+This simple plugin allows you to forget about constantly rendering Textile
+in your application. Instead, you can rest easy knowing the Textile fields
+you want to display as HTML will always be displayed as HTML (unless you
+tell your code otherwise).
+</p>
+<p>
+No database modifications are needed.
+</p>
+<p>
+You need RedCloth, of course. And Rails.
+</p>
+<h2>Usage</h2>
+<pre>
+  class Story &lt; ActiveRecord::Base
+    acts_as_textiled :body_text, :description
+  end
+
+  &gt;&gt; story = Story.find(3)
+  =&gt; #&lt;Story:0x245fed8 ... &gt;
+
+  &gt;&gt; story.description
+  =&gt; &quot;&lt;p&gt;This is &lt;strong&gt;cool&lt;/strong&gt;.&lt;/p&gt;&quot;
+
+  &gt;&gt; story.description(:source)
+  =&gt; &quot;This is *cool*.&quot;
+
+  &gt;&gt; story.description(:plain)
+  =&gt; &quot;This is cool.&quot;
+
+  &gt;&gt; story.description = &quot;I _know_!&quot;
+  =&gt; &quot;I _know_!&quot;
+
+  &gt;&gt; story.save
+  =&gt; true
+
+  &gt;&gt; story.description
+  =&gt; &quot;&lt;p&gt;I &lt;em&gt;know&lt;/em&gt;!&lt;/p&gt;&quot;
+
+  &gt;&gt; story.textiled = false
+  =&gt; false
+
+  &gt;&gt; story.description
+  =&gt; &quot;I _know_!&quot;
+
+  &gt;&gt; story.textiled = true
+  =&gt; true
+
+  &gt;&gt; story.description
+  =&gt; &quot;&lt;p&gt;I &lt;em&gt;know&lt;/em&gt;!&lt;/p&gt;&quot;
+</pre>
+<h2>Different Modes</h2>
+<p>
+RedCloth supports different modes, such as :lite_mode. To use a mode on a
+specific attribute simply pass it in as an options hash after any
+attributes you don&#8217;t want to mode-ify. Like so:
+</p>
+<pre>
+  class Story &lt; ActiveRecord::Base
+    acts_as_textiled :body_text, :description =&gt; :lite_mode
+  end
+</pre>
+<p>
+Or:
+</p>
+<pre>
+  class Story &lt; ActiveRecord::Base
+    acts_as_textiled :body_text =&gt; :lite_mode, :description =&gt; :lite_mode
+  end
+</pre>
+<p>
+You can also pass in multiple modes per attribute:
+</p>
+<pre>
+  class Story &lt; ActiveRecord::Base
+    acts_as_textiled :body_text, :description =&gt; [ :lite_mode, :no_span_caps ]
+  end
+</pre>
+<p>
+Get it? Now let&#8217;s say you have an admin tool and you want the text to
+be displayed in the text boxes / fields as plaintext. Do you have to change
+all your views?
+</p>
+<p>
+Hell no.
+</p>
+<h2>form_for</h2>
+<p>
+Are you using form_for? If you are, you don&#8217;t have to change any code
+at all.
+</p>
+<pre>
+  &lt;% form_for :story, @story do |f| %&gt;
+    Description: &lt;br/&gt; &lt;%= f.text_field :description %&gt;
+  &lt;% end %&gt;
+</pre>
+<p>
+You&#8217;ll see the Textile plaintext in the text field. It Just Works.
+</p>
+<h2>form tags</h2>
+<p>
+If you&#8217;re being a bit unconvential, no worries. You can still get at
+your raw Textile like so:
+</p>
+<pre>
+  Description: &lt;br/&gt; &lt;%= text_field_tag :description, @story.description(:source) %&gt;
+</pre>
+<p>
+And there&#8217;s always object.textiled = false, as demo&#8217;d above.
+</p>
+<h2>Pre-fetching</h2>
+<p>
+acts_as_textiled locally caches rendered HTML once the attribute in
+question has been requested. Obviously this doesn&#8217;t bode well for
+marshalling or caching.
+</p>
+<p>
+If you need to force your object to build and cache HTML for all textiled
+attributes, call the <tt>textilize</tt> method on your object.
+</p>
+<p>
+If you&#8217;re real crazy you can even do something like this:
+</p>
+<pre>
+  class Story &lt; ActiveRecord::Base
+    acts_as_textiled :body_text, :description
+
+    def after_find
+      textilize
+    end
+  end
+</pre>
+<p>
+All your Textile will now be ready to go in spiffy HTML format. But you
+probably won&#8217;t need to do this.
+</p>
+<p>
+Enjoy.
+</p>
+<ul>
+<li>By Chris Wanstrath [ chris[at]ozmm[dot]org ]
+
+</li>
+</ul>
+</div></div>
+
+  </div>
+
+      
+
+      <div class="push"></div>
+    </div>
+
+    <div id="footer">
+      <div class="site">
+        <div class="info">
+          <div class="links">
+            <a href="http://github.com/blog/148-github-shirts-now-available">Shirts</a> |
+            <a href="http://github.com/blog">Blog</a> |
+            <a href="http://support.github.com/">Support</a> |
+            <a href="http://github.com/training">Training</a> |
+            <a href="http://github.com/contact">Contact</a> |
+            <a href="http://groups.google.com/group/github/">Google Group</a> |
+            <a href="http://develop.github.com">API</a> |
+            <a href="http://twitter.com/github">Status</a>
+          </div>
+          <div class="company">
+            <span id="_rrt" title="0.03713s from xc88-s00008">GitHub</span>&trade;
+            is <a href="http://logicalawesome.com/">Logical Awesome</a> &copy;2009 | <a href="/site/terms">Terms of Service</a> | <a href="/site/privacy">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sponsor">
+          <a href="http://engineyard.com"><img src="/images/modules/footer/ey-rubyhosting.png" alt="Engine Yard" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="coming_soon" style="display:none;">
+      This feature is coming soon.  Sit tight!
+    </div>
+
+    
+        <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3769691-2");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+
+    
+  </body>
+</html>
+
